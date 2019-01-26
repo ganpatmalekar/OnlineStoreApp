@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp">
+        <RelativeLayout
+            android:id="@+id/rel_lay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <ImageView
+                android:id="@+id/cart_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY" />
+            <TextView
+                android:id="@+id/cart_name"
+                android:layout_width="200dp"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:text="This is a product name"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/cart_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/cart_name"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="2.0 KG"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/cart_qty"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/cart_weight"
+                android:textSize="15dp">
+            </TextView>
+            <TextView
+                android:id="@+id/cart_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/cart_qty"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="30.25"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+        <Button
+            android:id="@+id/cartDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="delete from cart"
+            android:textSize="20dp"
+            android:layout_below="@+id/cart_image"
+            android:padding="15dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@color/colorFlower"/>
+</LinearLayout>

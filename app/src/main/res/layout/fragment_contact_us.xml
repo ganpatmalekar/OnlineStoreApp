@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textSize="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#EF0000"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call:"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": +91-9028024466"
+                    android:drawableStart="@drawable/phone"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": +91-7875015349"
+                    android:drawableStart="@drawable/phone"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": +91-8806207093"
+                    android:drawableStart="@drawable/phone"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": +91-9730525820"
+                    android:drawableStart="@drawable/phone"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mail:"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": maheshshrigod8@gmail.com"
+                    android:drawableStart="@drawable/email"
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": chaitali4896bhang@gmail.com"
+                    android:drawableStart="@drawable/email"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": ganpatmalekar@gmail.com"
+                    android:drawableStart="@drawable/email"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": harshpatte123@gmail.com"
+                    android:drawableStart="@drawable/email"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

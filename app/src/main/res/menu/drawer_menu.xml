@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:title="All Lables">
+            <menu>
+                <item
+                    android:id="@+id/home_menu"
+                    android:title="HOME"
+                    android:icon="@drawable/home"
+                    app:showAsAction="ifRoom"/>
+                <item
+                    android:id="@+id/cart_menu"
+                    android:title="VIEW CART"
+                    android:icon="@drawable/shopping_cart"
+                    app:showAsAction="ifRoom"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Communications">
+            <menu>
+                <item
+                    android:id="@+id/about_us"
+                    android:title="ABOUT US"
+                    android:icon="@drawable/about_us"
+                    app:showAsAction="ifRoom"/>
+                <item
+                    android:id="@+id/contact_us"
+                    android:title="CONTACT US"
+                    android:icon="@drawable/contact"
+                    app:showAsAction="ifRoom"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/logout"
+            android:title="LOGOUT"
+            android:icon="@drawable/logout"
+            app:showAsAction="ifRoom"/>
+    </group>
+</menu>
